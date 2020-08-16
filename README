@@ -1,3 +1,6 @@
+This repository is a backup from https://sourceforge.net/p/dfu-util/dfu-util/ci/master/tree/
+To ensure GD32 RISC-V Nano/Pico can use the correct version of dfu-util, we build this repositery.
+
 Dfu-util - Device Firmware Upgrade Utilities
 
 Dfu-util is the host side implementation of the DFU 1.0 and DFU 1.1 [1]
@@ -17,4 +20,22 @@ The official website is:
 
   http://dfu-util.sourceforge.net
 
-See the INSTALL file for build instructions.
+Build instructions:
+
+1. If building from git (not needed for release tarballs):
+   Generate build system files (requires autoconf from autotools)
+
+	./autogen.sh
+
+2. Generate makefiles
+   (Run ./configure --help to see configuration options)
+
+	./configure
+
+3. Build executables
+
+	make
+
+4. Install executables and manual pages (optional)
+
+	make install
