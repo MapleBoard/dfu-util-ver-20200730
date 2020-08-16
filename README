@@ -1,5 +1,6 @@
 This repository is a backup from https://sourceforge.net/p/dfu-util/dfu-util/ci/master/tree/
 To ensure GD32 RISC-V Nano/Pico can use the correct version of dfu-util, we build this repositery.
+download date: 2020/07/30
 
 Dfu-util - Device Firmware Upgrade Utilities
 
